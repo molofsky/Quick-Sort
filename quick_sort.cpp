@@ -1,3 +1,8 @@
+/* 
+* @author Adrian Molofsky
+* @version 10/12/2023
+*/
+
 int* partion(int* begin, int* end) {
     int pivot = *(end - 1);
     int* i = begin - 1;
