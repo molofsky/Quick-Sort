@@ -22,7 +22,7 @@ int* partion(int* begin, int* end) {
 void quick_sort(int* begin, int* end) {
   if (begin >= end -1) return;
 
-  int* middle = partition(arr[], begin, end);
+  int* middle = partition(begin, end);
   quick_sort(begin, middle);
   quick_sort(middle+1, end);
 }
